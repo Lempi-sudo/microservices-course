@@ -1,6 +1,6 @@
 module github.com/Lempi-sudo/microservices-course/week_1/http_chi_ogen
 
-go 1.24.4
+go 1.24
 
 require (
 	github.com/brianvoe/gofakeit/v7 v7.3.0
