@@ -5,8 +5,9 @@ import (
 	"errors"
 	"log"
 
-	weatherV1 "github.com/Lempi-sudo/microservices-course/week_1/http_chi_ogen/pkg/openapi/weather/v1"
 	"github.com/brianvoe/gofakeit/v7"
+
+	weatherV1 "github.com/Lempi-sudo/microservices-course/week_1/http_chi_ogen/pkg/openapi/weather/v1"
 )
 
 const (

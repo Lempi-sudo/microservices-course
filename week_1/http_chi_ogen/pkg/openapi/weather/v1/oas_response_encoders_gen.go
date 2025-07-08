@@ -7,10 +7,9 @@ import (
 
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
+	ht "github.com/ogen-go/ogen/http"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
-
-	ht "github.com/ogen-go/ogen/http"
 )
 
 func encodeGetWeatherByCityResponse(response GetWeatherByCityRes, w http.ResponseWriter, span trace.Span) error {
@@ -142,5 +141,4 @@ func encodeErrorResponse(response *GenericErrorStatusCode, w http.ResponseWriter
 		return errors.Wrapf(ht.ErrInternalServerErrorResponse, "code: %d, message: %s", code, http.StatusText(code))
 	}
 	return nil
-
 }
