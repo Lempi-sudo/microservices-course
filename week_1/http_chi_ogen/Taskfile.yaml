@@ -22,8 +22,7 @@ vars:
   OPEN_API_WEATHER_V1_BASE: '{{.ROOT_DIR}}/api/weather/v1/weather.openapi.yaml'
   OPEN_API_WEATHER_V1_BUNDLE: '{{.ROOT_DIR}}/api/bundles/weather.openapi.v1.bundle.yaml'
   OPEN_API_FILES: '{{.ROOT_DIR}}/api/bundles'
-  target: '{{.ROOT_DIR}}/pkg/openapi/weather/v1'
-  package: 'weather_v1' 
+
 
 
 tasks:
